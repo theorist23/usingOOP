@@ -104,13 +104,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>glfw-3.2.1.bin.WIN32\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>glfw-3.2.1.bin.WIN32\lib-vc2015</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -148,7 +145,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="arrow_down.cpp" />
+    <ClCompile Include="arrow_left.cpp" />
+    <ClCompile Include="arrow_right.cpp" />
+    <ClCompile Include="arrow_up.cpp" />
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="draw_A.cpp" />
+    <ClCompile Include="draw_X.cpp" />
+    <ClCompile Include="f_rect.cpp" />
+    <ClCompile Include="icon.cpp" />
+    <ClCompile Include="icon2.cpp" />
+    <ClCompile Include="icon_set.cpp" />
+    <ClCompile Include="line.cpp" />
+    <ClCompile Include="rect.cpp" />
     <ClCompile Include="source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arrow_down.h" />
+    <ClInclude Include="arrow_left.h" />
+    <ClInclude Include="arrow_right.h" />
+    <ClInclude Include="arrow_up.h" />
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="draw_A.h" />
+    <ClInclude Include="draw_X.h" />
+    <ClInclude Include="f_rect.h" />
+    <ClInclude Include="icon.h" />
+    <ClInclude Include="icon2.h" />
+    <ClInclude Include="icon_set.h" />
+    <ClInclude Include="line.h" />
+    <ClInclude Include="rect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,5 +18,85 @@
     <ClCompile Include="source.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="arrow_down.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="arrow_left.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="arrow_right.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="arrow_up.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_A.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_X.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="f_rect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="icon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="icon_set.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="icon2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="rect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="icon_set.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="icon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="icon2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="rect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="f_rect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="arrow_up.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="arrow_down.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="arrow_left.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="arrow_right.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_X.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_A.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
